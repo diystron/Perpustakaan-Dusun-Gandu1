@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perpuatakaan Dusun Gandu 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1>Daftar Buku Perpustakaan</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                <img src="images/search.png" alt="">
+            </div>
+            <div class="export__file">
+                <label for="export-file" class="export__file-btn" title="Export File"></label>
+                <input type="checkbox" id="export-file">
+                <div class="export__file-options">
+                    <label>Export As &nbsp; &#10140;</label>
+                    <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                    <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                    <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                    <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                </div>
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Id Buku<span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Judul <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Penulis <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Kategori <span class="icon-arrow">&UpArrow;</span></th>
+                        <!--
+                            <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Amount <span class="icon-arrow">&UpArrow;</span></th>
+                        -->
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 002 </td>
+                        <td> Persahabatan yang Sejati</td>
+                        <td> Lestari </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 003 </td>
+                        <td> Mungkur Kambing</td>
+                        <td> Iwan Yusi </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 004 </td>
+                        <td> Ototku Kawat Tulangku Besi </td>
+                        <td> Tim Azka Mulia Media </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 005 </td>
+                        <td> FESTIVAL CINTA </td>
+                        <td> Nuryantini </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 006 </td>
+                        <td> JASA SEBUAH PERJUANGAN </td>
+                        <td> Jusuf D.C. </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 007 </td>
+                        <td> MENAPAKI MASA DEPAN </td>
+                        <td> Stefanus Djarot Wagijo </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 008 </td>
+                        <td> RUDI TEHNIKUS KECIL </td>
+                        <td> Maghfur Saan </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 009 </td>
+                        <td> Concerto Al Malioboro </td>
+                        <td> Ansel Watra </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 010 </td>
+                        <td> Petualangan Effendy Soleman dengan CADIK NUSANTARA </td>
+                        <td> Hanna Rambe </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 011 </td>
+                        <td> AKU WARISI SEMANGATMU </td>
+                        <td> Ghalia Indonesia </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 012 </td>
+                        <td> SEBUAH KEJUJURAN </td>
+                        <td> Sri Rochati SP. </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 013 </td>
+                        <td> TABAH </td>
+                        <td> Iwan Rompak </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 014 </td>
+                        <td> Puspa Rinance </td>
+                        <td> Gina </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 015 </td>
+                        <td> Penyelamat Desa </td>
+                        <td> Muhd. Yacob </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 016 </td>
+                        <td> ASTANA KASTAWA Antologi Karya Leluhur Sastra Indonesia II </td>
+                        <td> Latief S. Nugraha </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 017 </td>
+                        <td> Cerita Permainan Penyihir & Periuk Ajaib </td>
+                        <td> Hirotoka Nakano </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 018 </td>
+                        <td> Aika MAAFKAN AKU! </td>
+                        <td> Umar Sidik </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 092 </td>
+                        <td> Panjat Pinang Meriah </td>
+                        <td> Endang Firdaus </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 093 </td>
+                        <td> Surat dari Lembah Baliem </td>
+                        <td> Endang Firdaus </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 094 </td>
+                        <td> Ampak dan Musang yang Cerdik </td>
+                        <td> Murti Bunanta </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 100 </td>
+                        <td> PENGANTAR KAJIAN NOVEL ARAB </td>
+                        <td> Roger Allen </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 193 </td>
+                        <td> Cintaku Untuk Si Mata Indah </td>
+                        <td> Sri Rokhati </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 194 </td>
+                        <td> Aku Siap Belajar di Rumah </td>
+                        <td> Irmayana </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 195 </td>
+                        <td> CERITA TEMATIK AKU ANAK ANAK JUJUR </td>
+                        <td> Rian F. Rahman </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 195 </td>
+                        <td> CERITA TEMATIK AKU ANAK ANAK JUJUR </td>
+                        <td> Rian F. Rahman </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 196 </td>
+                        <td> Aku Paha Tata Cara Puasa </td>
+                        <td> Irmayana </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 197 </td>
+                        <td> Adab Makan dan Minum Tidak Mencela Makanan </td>
+                        <td> Ulfah H. T. </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 198 </td>
+                        <td> Ketangguhan Kiwi </td>
+                        <td> Ahmad Filyan </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 199 </td>
+                        <td> Gajah Pasukan Abrahah </td>
+                        <td> Fitri Nurul </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 200 </td>
+                        <td> Bismillah, Aku Ingin Menjadi Guru yang Bijak </td>
+                        <td> Nury </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 201 </td>
+                        <td> Paus yang Menelan Nabi Yunus </td>
+                        <td> Nury </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 202 </td>
+                        <td> CERITA TEMATIK AKU ANAK BERTANGGUNG JAWAB </td>
+                        <td> Rian F. Rahman </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 203 </td>
+                        <td> Hud-Hud Membawa Kabar Berita </td>
+                        <td> Fitri Nurul </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 204 </td>
+                        <td> Bismillah, Aku Ingin Menjadi Petani yang Bermanfaat </td>
+                        <td> Nury </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 205 </td>
+                        <td> BERPERILAKU Sesuai dengan Nilai-Nilai Pancasila </td>
+                        <td> Triyani </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 206 </td>
+                        <td> Ayo Giat Menabung! </td>
+                        <td> Agus Maryoto </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 207 </td>
+                        <td> Ayo Giat Menabung! </td>
+                        <td> Agus Maryoto </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 208 </td>
+                        <td> YUK, BERFKIR POSITIF </td>
+                        <td> Edi Warsidi </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 256 </td>
+                        <td> DRAMA TEORI DAN PEMENTASAN </td>
+                        <td> Bintang Angkasa Putra </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 257 </td>
+                        <td> MENGHASILKAN GENERASI CINTA TANAH AIR </td>
+                        <td> Kemendikbud </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 258 </td>
+                        <td> MENYEMAI CINTA DARI PELOSOK </td>
+                        <td> Kemendikbud </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 259 </td>
+                        <td> Buku Braile : Kisah Rakyat Sumatra KISAH MALIN KUNDANG, KISAH DANAU TOBA </td>
+                        <td> Nadia Thifalia R. </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 271 </td>
+                        <td> Dongeng Pengantar Tidur </td>
+                        <td> Veronica W. </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 272 </td>
+                        <td> Emma Darcy : The velvet Tiger </td>
+                        <td> Emma Darcy </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 273 </td>
+                        <td> Hutanku </td>
+                        <td> Yunita Trihastuti, S. Pd., dkk. </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 274 </td>
+                        <td> Wangi Dari Rumah Mbah Surti </td>
+                        <td> Setyaningsih </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 275 </td>
+                        <td> Kehidupan dan Cinta </td>
+                        <td> Kahlil Gibran </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <tr>
+                        <td> 276 </td>
+                        <td> Seribu Pohon </td>
+                        <td> Yunita Trihastuti, S. Pd, dkk </td>
+                        <td> Cerita / Novel </td>
+                    </tr>
+                    <br>
+                    <a href="https://github.com/diystron/Library-Management-System/tree/main" target="_blank" style="font-family: sans-serif ; color: crimson; text-decoration:none; font: bold 16px sans-serif">Download Software Library Management System</a>
+                    <p></p>
+                    <br>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
